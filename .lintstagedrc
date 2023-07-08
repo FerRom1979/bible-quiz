@@ -1,0 +1,8 @@
+{
+  "*.{js,ts,tsx,scss,css,md}": [
+    "eslint",
+    "prettier --write",
+    "yarn test -passWithNoTests --watchAll=false",
+    "yarn build"
+  ]
+}
